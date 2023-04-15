@@ -18,6 +18,9 @@ function HelloWorld() {
         </a>
       </div>
       <h1>Vite + React</h1>
+      <div>
+        <Link to="places">View Places Page</Link>
+      </div>
       <Link to="hello">View Hello Page</Link>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
