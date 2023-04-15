@@ -8,11 +8,11 @@ const router = createBrowserRouter([
     element: <HelloWorld />,
   },
   {
-    path: "/places",
+    path: "places",
     element: <PlacesPage />,
   },
   {
-    path: "/hello",
+    path: "hello",
     element: (
       <div>
         <h1>Hello World</h1>
